@@ -72,6 +72,18 @@ jQuery(document).ready(function() {
             pagination: false,
             autoPlay: true
         }),
+        jQuery("#our-small-clients-slider .slider-items").owlCarousel({
+            items: 5,
+            itemsDesktop: [1024, 5],
+            itemsDesktopSmall: [900, 3],
+            itemsTablet: [640, 2],
+            itemsMobile: [360, 1],
+            navigation: true,
+            navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
+            slideSpeed: 500,
+            pagination: false,
+            autoPlay: false
+        }),
 
  /******************************************
            computer slider
