@@ -75,7 +75,7 @@
             var jQuerydate = jQuerythis.data('date').split("-");
             jQuerythis.JTV_CountDown({
                 TargetDate:jQuerydate[0]+"/"+jQuerydate[1]+"/"+jQuerydate[2]+" "+jQuerydate[3]+":"+jQuerydate[4]+":"+jQuerydate[5],
-                DisplayFormat:"<div class=\"countdown-times\"><div class=\"day distance\"><div class='number'>%%D%%</div> <div class='text'>days </div></div><div class=\"hours distance\"><div class='number'>%%H%%</div><div class='text'> hours </div></div><div class=\"minutes distance\"><div class='number'>%%M%%</div><div class='text'> mins</div> </div><div class=\"seconds distance\"><div class='number'>%%S%%</div> <div class='text'>secs</div> </div></div>",
+                DisplayFormat:"<div class=\"countdown-times\"><div class=\"day distance\"><div class='number'>%%D%%</div> <div class='text'>Ngày </div></div><div class=\"hours distance\"><div class='number'>%%H%%</div><div class='text'> Giờ </div></div><div class=\"minutes distance\"><div class='number'>%%M%%</div><div class='text'> Phút</div> </div><div class=\"seconds distance\"><div class='number'>%%S%%</div> <div class='text'>Giây</div> </div></div>",
                 FinishMessage: "Expired"
             });
         });

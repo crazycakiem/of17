@@ -33,6 +33,7 @@
  <!--[if lt IE 8]>
  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
  <![endif]-->
+
  <div id="page">
   <!-- Header -->
   <header>
@@ -43,6 +44,7 @@
        <div class="col-sm-3 col-md-3 col-xs-12">
         <div class="time time-on-top" data-countdown="countdown" data-date="12-30-2017-10-20-50"></div>
        </div>
+
        <!-- top links -->
        <div class="headerlinkmenu col-md-9 col-sm-9 col-xs-12">
         <ul class="links">
@@ -156,33 +158,34 @@
     </div>
    </div>
   </div>
+  <div class="blank-head show-search-result">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12 a-left">
+      <h3 class="uppercase txt-blue">Kết Quả tìm kiếm</h3>
+      <p class="txt-blue">Từ khóa <span class="txt-orange-dark txt-bolder">"Iphone"</span> có <span class="txt-blue txt-bolder">23567</span> kết quả.</p>
+     </div>
+    </div>
+   </div>
+  </div>
   <div class="inner-box two-col" id="promo-detail">
    <div class="container">
     <div class="row">
      <div class="col-sm-3 col-right-content left-ctn">
       <div class="box-content-inner box-white box-shadow-st1 main-col">
-       <div class="header-widget">
-        <p class="uppercase a-left"><img src="images/ico-tbdt.png"> Thiết bị điện tử</p>
+       <div class="header-widget bg-orange">
+        <p class="uppercase a-center">Danh mục sản phẩm</p>
        </div>
        <div class="widget-list-cate">
         <ul>
-         <li class="has-sub-mn active">
-          <a href="#">Điện thoại - Máy tính bảng</a>
-          <ul class="sub-mn">
-           <li><a href="#">Điện thoại</a></li>
-           <li><a href="#">Điện thoại</a></li>
-           <li><a href="#">Điện thoại</a></li>
-           <li><a href="#">Điện thoại</a></li>
-           <li><a href="#">Điện thoại</a></li>
-          </ul>
-         </li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
-         <li><a href="#">Điện thoại - Máy tính bảng</a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
+         <li><a href="#">Điện thoại - Máy tính bảng <span class="count">(12)</span></a></li>
          <li class="view-more"><a href="#">Xem thêm <i class="fa fa-chevron-down"></i></a></li>
         </ul>
        </div>
@@ -282,24 +285,19 @@
       <div class="inner-box home-tab-product box-shadow-st1 box-white mb-30" id="box-feature-product">
        <div class="row">
         <div class="box-header clearfix a-left">
-         <ul class="nav home-nav-tabs home-product-tabs">
-          <li class="active"><a href="#xn" data-toggle="tab" aria-expanded="true">Xem nhiều</a></li>
-          <li class=""><a href="#mn" data-toggle="tab" aria-expanded="false">Mới nhất</a></li>
-          <li class=""><a href="#gnn" data-toggle="tab" aria-expanded="false">Giảm nhiều nhất</a></li>
-         </ul>
          <div class="sorter right">
-          <div class="short-by">
-           <select>
-            <option selected="selected">Mức giá</option>
-            <option>---------</option>
-            <option>---------</option>
-            <option>---------</option>
-           </select>
-          </div>
           <ul class="check-box-list">
            <li>
+            <input type="checkbox" id="p3" name="cc">
+            <label for="p3"> <span class="button"></span> Sản phẩm Deal</label>
+           </li>
+           <li>
+            <input type="checkbox" id="p2" name="cc">
+            <label for="p2"> <span class="button"></span> Sản phẩm đảm bảo</label>
+           </li>
+           <li>
             <input type="checkbox" id="p1" name="cc">
-            <label for="p1"> <span class="button"></span> Đồng giá</label>
+            <label for="p1"> <span class="button"></span> Khuyến mãi</label>
            </li>
           </ul>
          </div>
@@ -307,439 +305,7 @@
         <div class="box-white box-inner clearfix">
          <!-- Promotion -->
          <div class="jtv-feature-product jtv-best-sale tab-content">
-          <div class="jtv-best-sale-list tab-pane active in" id="xn">
-           <div class="slider-items-products orange-style">
-            <div class="row product-grid-area">
-             <div class="products-grid">
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="jtv-best-sale-list tab-pane fade" id="mn">
-           <div class="slider-items-products orange-style">
-            <div class="row product-grid-area">
-             <div class="products-grid">
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-              <div class="product-item style-2 col-md-3 col-xs-6 item">
-               <div class="item-inner">
-                <div class="product-thumbnail">
-                 <div class="pr-img-area">
-                  <a title="Product title here" href="#">
-                   <figure> <img class="first-img" src="images/img-promotion-1.png" alt="HTML template"></figure>
-                  </a>
-                 </div>
-                </div>
-                <div class="box-title">
-                 <a href="#">Phấn Nước Dưỡng Trắng Za True White Cushion </a>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giảm giá từ <span class="txt-orange-dark">25%</span> đến <span class="txt-orange-dark">50%</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span>Giá chỉ từ <span class="txt-blue">250.000đ</span></span>
-                </div>
-                <div class="box-pt text-center">
-                 <span><span class="txt-orange-dark">752</span> sản phẩm</span>
-                </div>
-                <div class="box-bot text-center">
-                 <span>Sendo.vn</span>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="jtv-best-sale-list tab-pane fade" id="gnn">
+          <div class="jtv-best-sale-list">
            <div class="slider-items-products orange-style">
             <div class="row product-grid-area">
              <div class="products-grid">
