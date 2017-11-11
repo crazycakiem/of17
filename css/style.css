@@ -830,7 +830,8 @@ select.cate-dropdown {
 }
 .modal-header {
 	text-align: left;
-	border: none;
+	border-radius: 6px 6px 0 0;
+	background-color: #eef3f6;
 }
 .modal-open {
 	padding: 0px !important
@@ -6377,7 +6378,7 @@ button.button.pro-add-to-cart span i {
 	padding: 5px 0px 0px 0px;
 	overflow: hidden;
 	font-size: 13px;
-	line-height: 20px;
+	/*line-height: 20px;*/
 	margin-top: 10px;
 	margin-bottom: 0px;
 	color: #999;
@@ -8402,9 +8403,52 @@ margin-right: 5px;
 .product-item .item-inner .box-top span.right{
 	display: inline-block;
  padding: 3px 6px;
- color: #9aa1a6;
+ color: #fff;
  font-size: 10px;
  text-transform: uppercase;
+ margin-top: 3px;
+ margin-right: 3px;
+ border-radius: 4px;
+	position: relative;
+padding-right: 26px;
+	background: rgba(0,106,144,1);
+	background: -moz-linear-gradient(45deg, rgba(0,106,144,1) 0%, rgba(0,164,205,1) 56%, rgba(0,164,205,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,106,144,1)), color-stop(56%, rgba(0,164,205,1)), color-stop(100%, rgba(0,164,205,1)));
+	background: -webkit-linear-gradient(45deg, rgba(0,106,144,1) 0%, rgba(0,164,205,1) 56%, rgba(0,164,205,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(0,106,144,1) 0%, rgba(0,164,205,1) 56%, rgba(0,164,205,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(0,106,144,1) 0%, rgba(0,164,205,1) 56%, rgba(0,164,205,1) 100%);
+	background: linear-gradient(45deg, rgba(0,106,144,1) 0%, rgba(0,164,205,1) 56%, rgba(0,164,205,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006a90', endColorstr='#00a4cd', GradientType=1 );
+}
+.product-item .item-inner .box-top span.right i{
+	background: rgba(254,170,24,1);
+	background: -moz-linear-gradient(-45deg, rgba(254,170,24,1) 0%, rgba(219,117,8,1) 56%, rgba(219,117,8,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(254,170,24,1)), color-stop(56%, rgba(219,117,8,1)), color-stop(100%, rgba(219,117,8,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(254,170,24,1) 0%, rgba(219,117,8,1) 56%, rgba(219,117,8,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(254,170,24,1) 0%, rgba(219,117,8,1) 56%, rgba(219,117,8,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(254,170,24,1) 0%, rgba(219,117,8,1) 56%, rgba(219,117,8,1) 100%);
+	background: linear-gradient(135deg, rgba(254,170,24,1) 0%, rgba(219,117,8,1) 56%, rgba(219,117,8,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feaa18', endColorstr='#db7508', GradientType=1 );
+	color: #FFF !important;
+ position: absolute;
+ right: 0;
+ height: 21px;
+ width: 21px;
+ border-radius: 0 4px 4px 0;
+ top: 0;
+ text-align: center;
+ line-height: 20px;
+}
+.product-item .item-inner .box-top span.right.delivery{
+	background: rgba(195,201,209,1);
+	background: -moz-linear-gradient(-45deg, rgba(195,201,209,1) 0%, rgba(153,165,177,1) 56%, rgba(153,165,177,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(195,201,209,1)), color-stop(56%, rgba(153,165,177,1)), color-stop(100%, rgba(153,165,177,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(195,201,209,1) 0%, rgba(153,165,177,1) 56%, rgba(153,165,177,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(195,201,209,1) 0%, rgba(153,165,177,1) 56%, rgba(153,165,177,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(195,201,209,1) 0%, rgba(153,165,177,1) 56%, rgba(153,165,177,1) 100%);
+	background: linear-gradient(135deg, rgba(195,201,209,1) 0%, rgba(153,165,177,1) 56%, rgba(153,165,177,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c9d1', endColorstr='#99a5b1', GradientType=1 );
+	padding-right: 6px;
 }
 .product-item .item-inner .box-top a.box-gift{
 	background-color:#215278;
@@ -9138,13 +9182,13 @@ font-size: 16px;
 }
 .box-button-bot > a{
 	text-align: center;
- display: block;
- padding: 10px;
- margin-left: 15px;
- margin-right: 15px;
- margin-bottom: 15px;
- border: 1px solid #eb7e00;
- border-radius: 4px;
+	display: block;
+	padding: 15px 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #eb7e00;
+	border-radius: 4px;
 	font-weight: 500;
 }
 .col-right-content .box-content-inner .box-button-bot > a:hover{
@@ -9345,6 +9389,16 @@ a.btn-orange, .btn-orange
 background-color:#eb7e00;
 color:#FFF;
 border:none;
+}
+.box-button-bot > a.not-yet{
+	border: 1px solid #959ea4;
+	background: #959ea4 url('../images/bg-clock.png') no-repeat 100% -40%;
+	color: #FFF;
+}
+.col-right-content .box-content-inner .box-button-bot > a.not-yet:hover{
+	background-color: #959ea4;
+	border: 1px solid #959ea4;
+	color: #FFF;
 }
 .header-widget{position: relative;}
 .header-widget p{
@@ -9756,4 +9810,85 @@ padding-right: 10px;
 .item-inner .tb-sty-wg table{margin-bottom: 0;}
 .item-inner .tb-sty-wg .uppercase{
 	font-size: 12px;
+}
+.box-direct-link h4{
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 24px;
+}
+.box-direct-link a.link-mute{
+color: #aaa;
+}
+.box-direct-link a.link-mute:hover{
+	color:#eb7e00;
+}
+.box-direct-link hr{
+	width: 150px;
+	text-align: center;
+	margin: 20px auto;
+}
+.box-direct-link p{
+font-size: 14px;
+}
+.box-direct-link .box-button-bot a{
+	display: inline-block;
+width: 150px;
+margin-top: 10px;
+margin-bottom: 0;
+}
+.modal-title{
+	color: #3b4e5d;
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #eef3f6;
+}
+.modal-body input.input-type{
+	background-color: #f2f3f6;
+ border-radius: 4px;
+ border: 1px solid #dee6eb;
+ display: block;
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+}
+.btn-ss{
+	background-color: #f2f5f7;
+	border: 1px solid #c5cbd4;
+	padding: 15px 20px;
+}
+.show-list-loc .col-left{
+border-right: 1px solid #eee;
+    padding-top: 15px;
+}
+.show-list-loc .col-right{
+	border-left: 1px solid #eee;
+margin-left: -1px;
+padding-left: 0;
+padding-right: 0;
+}
+.modal-body .list-location{
+	overflow-y: scroll;
+	max-height: 500px;
+}
+.modal-body .list-location ul{
+	margin: 0;
+list-style: none;
+}
+.modal-body .list-location ul li{
+	margin-bottom: 5px;
+}
+.modal-body .list-location ul li a{
+	position: relative;
+ padding-left: 20px;
+ color: #505356;
+ display: inline-block;
+ font-size: 14px;
+}
+.modal-body .list-location ul li a i{
+	position: absolute;
+	left: 0;
+	top: 2px;
+	color: #eb7e00;
+	font-size: 16px;
 }
